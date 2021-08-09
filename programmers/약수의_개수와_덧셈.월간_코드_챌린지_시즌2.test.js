@@ -15,7 +15,6 @@ function solution(left, right) {
 
 	for (let i = left; i < right + 1; i++) {
 		const result = getDivisor(i);
-		console.log(i, result);
 		answer += result % 2 ? -i : +i;
 	}
 
