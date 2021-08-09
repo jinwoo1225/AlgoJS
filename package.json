@@ -1,0 +1,20 @@
+{
+  "name": "algojs",
+  "version": "1.0.0",
+  "description": "example of javascript coding test",
+  "main": "/",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "PS",
+    "problem-solving"
+  ],
+  "author": "jinwoo1225",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "jest-cli": "^27.0.6",
+    "prettier": "^2.3.2"
+  }
+}
