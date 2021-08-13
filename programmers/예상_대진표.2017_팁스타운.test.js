@@ -4,7 +4,6 @@ function solution(n, a, b) {
 	let round = 1;
 
 	while (true) {
-		console.log(a, b, round);
 		if (left % 2 === 1 && right - left === 1) {
 			return round;
 		}
